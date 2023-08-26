@@ -1,11 +1,17 @@
- **In this repository we will build a basic Banking System using Object oriented programming in Python.**
+ **In this repository we will build a Basic Systems using Object oriented programming in Python which will mainly focus on implementing 
+ Object oriented programming concepts .**
 <br>
+(You will be building following systems
+- Atm Bank
  
 Our Banking system will have following features
-
-- Setting Pin
-- Depositing Money
-- Withdrawing Money
-- Checking Balance
+- Create Pin
+- Deposit Money
+- Withdraw Money
+- Check Balance
 
 All of the above features will be implemented using OOP as said before.
+
+``` 
+    
+```
