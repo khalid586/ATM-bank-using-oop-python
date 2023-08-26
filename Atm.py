@@ -4,7 +4,6 @@ class Atm:
         self.pin = ""
         self.balance = 0
 
-
     def create_pin(self):
         if self.pin == "":
             self.pin = input("Create you pin please: ")
@@ -35,7 +34,6 @@ class Atm:
     def withdraw(self):
         if self.pin == "":
             self.create_pin()
-
         if self.check_pin():
             amount = int(input("Please enter your withdrawal amount or press 0 to return to menu: "))
             if amount == 0:
@@ -55,7 +53,6 @@ class Atm:
     def check_balance(self):
         if self.pin == "":
             self.create_pin()
-
         if self.check_pin():
             print(f"Your current balance is : {self.balance}")
         else:
@@ -92,10 +89,10 @@ def main():
 
     while 1:
         choice = int(input("""Please Select your bank
+        0. Exit
+        
         1. Asia Bank: 
         2. Prime Bank
-        
-        3. Exit
         """))
 
         if choice == 1:
@@ -110,7 +107,7 @@ def main():
                 stay = menu(primeBank)
                 if not stay:
                     break
-        elif choice == 3:
+        elif choice == 0:
             break
         else:
             print("Please enter a valid choice")
