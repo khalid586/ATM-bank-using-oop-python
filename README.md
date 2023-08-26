@@ -10,5 +10,4 @@ Our Atm banking system will have the following features
 - Withdraw Money
 - Check Balance
 
-
 All the features mentioned above will be implemented using OOP as said before.
