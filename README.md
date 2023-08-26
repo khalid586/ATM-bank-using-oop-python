@@ -1,6 +1,11 @@
-# Object-Oriented-Programming-Python
-This repository contains a brief introduction to one of the most important concepts of any programming language , OOP.   
+ **In this repository we will build a basic Banking System using Object oriented programming in Python.**
+<br>
+ 
+Our Banking system will have following features
 
-<!-- # Trial -->
+- Setting Pin
+- Depositing Money
+- Withdrawing Money
+- Checking Balance
 
-[//]: # (Hello there)
+All of the above features will be implemented using OOP as said before.
