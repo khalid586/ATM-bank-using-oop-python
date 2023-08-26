@@ -16,8 +16,7 @@ class Atm:
         if pin == self.pin:
             return 1
         else:
-            print("Pin is incorrect")
-            self.check_pin()
+            return 0
 
     def deposit(self):
         if self.pin == "":
