@@ -1,39 +1,14 @@
 class Atm:
     # Constructor
-    def __init__(self, bank_name):
-        print(f"Thanks for choosing {bank_name}")
+    def __init__(self):
         self.pin = ""
         self.balance = 0
 
-        self.menu()
-
-    def menu(self):
-        print("hello")
-        # user_input = input("""
-        #                 1. Enter 1 to create pin
-        #                 2. Enter 2 to deposit
-        #                 3. Enter 3 to withdraw
-        #                 4. Enter 4 to check balance
-        #                 5. Enter 5 to exit
-        # """)
-        #
-        # if user_input == "1":
-        #     self.create_pin()
-        #     print("Your pin has been set successfully")
-        # elif user_input == "2":
-        #     self.deposit()
-        # elif user_input == "3":
-        #     self.withdraw()
-        # elif user_input == "4":
-        #     self.check_balance()
-        # elif user_input == "5":
-        #     print("Thanks for being with us.\nBye")
-        # else:
-        #     print("Please Enter a valid input")
 
     def create_pin(self):
         if self.pin == "":
             self.pin = input("Create you pin please: ")
+            print("Your pin has been set successfully")
         else:
             print("There is already a pin")
 
@@ -56,7 +31,6 @@ class Atm:
         else:
             print("You have entered wrong pin")
             self.deposit()
-
 
     def withdraw(self):
         if self.pin == "":
@@ -89,30 +63,57 @@ class Atm:
             self.check_balance()
 
 
+def menu(object):
+    user_input = int(input("""
+                    0. Enter 0 to exit
+                    1. Enter 1 to create pin
+                    2. Enter 2 to deposit
+                    3. Enter 3 to withdraw
+                    4. Enter 4 to check balance
+    """))
+
+    if user_input == 1:
+        object.create_pin()
+    elif user_input == 2:
+        object.deposit()
+    elif user_input == 3:
+        object.withdraw()
+    elif user_input == 4:
+        object.check_balance()
+    elif user_input < 0 or user_input > 4:
+        print("Please Enter a valid input")
+
+    return user_input
 
 
-prime = Atm("Prime Bank")
-prime.deposit()
-asia = Atm("Asia Bank")
-asia .deposit()
+def main():
+    asiaBank = Atm()
+    primeBank = Atm()
 
-print(prime.check_balance())
-print(asia.check_balance())
-# while 1:
-#     BankName = int(input("""Enter choose your Bank Name please:
-#                         1. Prime Bank
-#                         2. Asia Bank
-#                         3. Dutch Bangla Bank
-#                         4. Exit
-#     """))
-#     if BankName == 1:
-#         Prime = Atm("Prime Bank")
-#     elif BankName == 2:
-#         AsiaBank = Atm("Asia Bank")
-#     elif BankName == 3:
-#         DutchBanglaBank = Atm("Dutch Bangla Bank")
-#     elif BankName == 4:
-#         print("Thanks for being with us\nBye")
-#         break
-#     else:
-#         print("Please Enter a valid input")
+    while 1:
+        choice = int(input("""Please Select your bank
+        1. Asia Bank: 
+        2. Prime Bank
+        
+        3. Exit
+        """))
+
+        if choice == 1:
+            print(f"Thanks for choosing Asia Bank")
+            while 1:
+                stay = menu(asiaBank)
+                if not stay:
+                    break
+        elif choice == 2:
+            print(f"Thanks for choosing Prime Bank")
+            while 1:
+                stay = menu(primeBank)
+                if not stay:
+                    break
+        elif choice == 3:
+            break
+        else:
+            print("Please enter a valid choice")
+
+
+main()
