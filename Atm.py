@@ -43,42 +43,51 @@ class Atm:
             return 1
         else:
             print("Pin is incorrect")
+            self.check_pin()
 
     def deposit(self):
         if self.pin == "":
             self.create_pin()
 
-            if self.check_pin():
-                amount = input("Please enter your deposit amount: ")
-                self.balance += int(amount)
-                print("Amount has been deposited successfully")
-            else:
-                print("You have entered wrong pin")
-
+        if self.check_pin():
+            amount = input("Please enter your deposit amount: ")
+            self.balance += int(amount)
+            print("Amount has been deposited successfully")
         else:
-            if self.check_pin():
-                amount = input("Please enter your deposit amount: ")
-                self.balance += int(amount)
-                print("Amount has been deposited successfully")
-            else:
-                print("You have entered wrong pin")
+            print("You have entered wrong pin")
+            self.deposit()
 
 
     def withdraw(self):
-        amount = int(input("Please enter your withdrawal amount or press 0 to return to menu: "))
-        if amount == 0:
-            pass
-        elif amount < 0:
-            print("Invalid amount")
-        elif self.balance >= amount:
-            self.balance -= amount
-            print("Amount has been withdrawn successfully")
+        if self.pin == "":
+            self.create_pin()
+
+        if self.check_pin():
+            amount = int(input("Please enter your withdrawal amount or press 0 to return to menu: "))
+            if amount == 0:
+                pass
+            elif amount < 0:
+                print("Invalid amount")
+            elif self.balance >= amount:
+                self.balance -= amount
+                print("Amount has been withdrawn successfully")
+            else:
+                print("Insufficient balance")
+                self.withdraw()
         else:
-            print("Insufficient balance")
+            print("You have entered wrong pin")
             self.withdraw()
 
     def check_balance(self):
-        print(f"Your current balance is : {self.balance}")
+        if self.pin == "":
+            self.create_pin()
+
+        if self.check_pin():
+            print(f"Your current balance is : {self.balance}")
+        else:
+            print("You have entered wrong pin")
+            self.check_balance()
+
 
 
 
