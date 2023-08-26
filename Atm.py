@@ -1,8 +1,32 @@
 class Atm:
+
+
     # Constructor
     def __init__(self):
         self.pin = ""
         self.balance = 0
+
+    def menu(self):
+        user_input = int(input("""
+                        0. Enter 0 to exit
+                        1. Enter 1 to create pin
+                        2. Enter 2 to deposit
+                        3. Enter 3 to withdraw
+                        4. Enter 4 to check balance
+        """))
+
+        if user_input == 1:
+            self.create_pin()
+        elif user_input == 2:
+            self.deposit()
+        elif user_input == 3:
+            self.withdraw()
+        elif user_input == 4:
+            self.check_balance()
+        elif user_input < 0 or user_input > 4:
+            print("Please Enter a valid input")
+
+        return user_input
 
     def create_pin(self):
         if self.pin == "":
@@ -59,29 +83,6 @@ class Atm:
             self.check_balance()
 
 
-def menu(object):
-    user_input = int(input("""
-                    0. Enter 0 to exit
-                    1. Enter 1 to create pin
-                    2. Enter 2 to deposit
-                    3. Enter 3 to withdraw
-                    4. Enter 4 to check balance
-    """))
-
-    if user_input == 1:
-        object.create_pin()
-    elif user_input == 2:
-        object.deposit()
-    elif user_input == 3:
-        object.withdraw()
-    elif user_input == 4:
-        object.check_balance()
-    elif user_input < 0 or user_input > 4:
-        print("Please Enter a valid input")
-
-    return user_input
-
-
 def main():
     asiaBank = Atm()
     primeBank = Atm()
@@ -97,13 +98,13 @@ def main():
         if choice == 1:
             print(f"Thanks for choosing Asia Bank")
             while 1:
-                stay = menu(asiaBank)
+                stay = asiaBank.menu()
                 if not stay:
                     break
         elif choice == 2:
             print(f"Thanks for choosing Prime Bank")
             while 1:
-                stay = menu(primeBank)
+                stay = primeBank.menu()
                 if not stay:
                     break
         elif choice == 0:
