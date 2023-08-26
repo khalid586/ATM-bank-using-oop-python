@@ -4,14 +4,10 @@
 (You will be building following systems
 - Atm Bank
  
-Our Banking system will have following features
+Our Atm banking system will have the following features
 - Create Pin
 - Deposit Money
 - Withdraw Money
 - Check Balance
 
-All of the above features will be implemented using OOP as said before.
-
-``` 
-    
-```
+All the features mentioned above will be implemented using OOP as said before.
