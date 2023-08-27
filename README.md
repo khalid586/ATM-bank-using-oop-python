@@ -1,5 +1,5 @@
  **In this repository we will build a Basic Systems using Object oriented programming in Python which will mainly focus on implementing 
- Object oriented programming concepts .**
+ Object oriented programming concepts.**
 <br>
  
 We will be building following systems
