@@ -14,11 +14,21 @@ Object oriented programming concepts.**
 We will be building following programs
 - [Atm Banking System](#atm-banking-system)
     - Our Atm Banking System will have the following features
+        - [Select Bank](#select-bank)
+            - User will be able to select bank
+        - [Select option from Menu](#select-from-menu)
+            - User will be able to select operations from the menu
         - [Create Pin](#create-pin)
+            - User has to create pin in order to operate
         - [Check Pin](#check-pin)
+            - Entered pin will be checked after creating pin 
         - [Deposit Money](#deposit-money)
+            - User will be able to deposit money
         - [Withdraw Money](#withdraw-money)
+            - User will be able withdraw money
         - [Check Balance](#check-balance)
+            - User will be able to check balance
+
 - [Custom Datatype]()
     - Custom datatype which will include the following features
         - [Addition]()
@@ -35,6 +45,70 @@ All the features mentioned above will be implemented using OOP as said before.
 
 # Atm Banking System
 The features are mentioned below
+
+### Select Bank
+User will have to select a bank from the given options and then the menu method will be called by the object
+
+```
+def main():
+    asiaBank = Atm()
+    primeBank = Atm()
+
+    while 1:
+        choice = int(input("""Please Select your bank
+        0. Exit
+        
+        1. Asia Bank: 
+        2. Prime Bank
+        """))
+
+        if choice == 1:
+            print(f"Thanks for choosing Asia Bank")
+            while 1:
+                stay = asiaBank.menu()
+                if not stay:
+                    break
+        elif choice == 2:
+            print(f"Thanks for choosing Prime Bank")
+            while 1:
+                stay = primeBank.menu()
+                if not stay:
+                    break
+        elif choice == 0:
+            break
+        else:
+            print("Please enter a valid choice")
+
+
+main()
+```
+
+### Select from Menu
+User will have to select an operation from the menu
+
+```
+def menu(self):
+        user_input = int(input("""
+                        0. Enter 0 to exit
+                        1. Enter 1 to create pin
+                        2. Enter 2 to deposit
+                        3. Enter 3 to withdraw
+                        4. Enter 4 to check balance
+        """))
+
+        if user_input == 1:
+            self.create_pin()
+        elif user_input == 2:
+            self.deposit()
+        elif user_input == 3:
+            self.withdraw()
+        elif user_input == 4:
+            self.check_balance()
+        elif user_input < 0 or user_input > 4:
+            print("Please Enter a valid input")
+
+        return user_input
+```
 
 ### Create Pin
 We will be creating pins for every object and pin is required to perform all other operations.Without a pin no one can perform any other operation. And if pin is created then every time someone is going to perform any operation pin will be checked.
