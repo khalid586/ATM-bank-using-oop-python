@@ -32,7 +32,7 @@ We will be building following programs
             - User will be able to check balance
 
 - [Custom Datatype]()
-    - Custom datatype which will include the following features
+    - We will create a custom datatype named **fraction** which will have the following functionalities
         - [Addition]()
         - [Substraction]()
         - [Multiplication]()
