@@ -31,7 +31,7 @@ We will be building following programs
         - [Check Balance](#check-balance)
             - User will be able to check balance
 
-- [Custom Datatype]()
+- [Custom Datatype]() (It will be added soon)
     - We will create a custom datatype named **fraction** which will have the following functionalities
         - [Addition]()
             - Add two fractions
