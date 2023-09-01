@@ -167,7 +167,7 @@ In order to deposit money user has to have a pin. If he doesn't have a pin he ha
 
 
 ### Withdraw Money
-Just like deposit withdraw method can be performed after entering the righ pin. In this case user has to enter a valid amount also. If the entered amount is withdrawable then he can withdraw money otherwise he will be asked to repeat the operation.
+Just like deposit method, withdraw method will also be performed after entering the righ pin. In this case user has to enter a valid amount as well. If the entered amount is withdrawable then he can withdraw money otherwise he will be again asked to enter a withdrawable amount.
 
 ```
 def withdraw(self):
