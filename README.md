@@ -5,6 +5,11 @@ Object oriented programming concepts.**
 
 <br>
 
+# Concepts
+- Magic method
+- Constructor
+- Self object
+
 # Programs
 We will be building following programs
 - [Atm Banking System](#atm-banking-system)
