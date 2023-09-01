@@ -46,7 +46,7 @@ def create_pin(self):
         else:
             print("There is already a pin")
 ```
-
+[Back to top](#programs)
 ### Check Pin
 If there is a pin already existing in the program then we will check the pin everytime before performing any operation.
 ```
@@ -57,9 +57,65 @@ If there is a pin already existing in the program then we will check the pin eve
         else:
             return 0
 ```
+[Back to top](#programs)
+
 
 ### Deposit Money
+In order to deposit money user has to have a pin. If he doesn't have a pin he has to create one and if he has then we will check the pin he has entered. After entering the right pin his entered amount will be added to balance.
+
+```
+    def deposit(self):
+        if self.pin == "":
+            self.create_pin()
+
+        if self.check_pin():
+            amount = input("Please enter your deposit amount: ")
+            self.balance += int(amount)
+            print("Amount has been deposited successfully")
+        else:
+            print("You have entered wrong pin")
+            self.deposit()
+```
+[Back to top](#programs)
+
 
 ### Withdraw Money
+Just like deposit withdraw method can be performed after entering the righ pin. In this case user has to enter a valid amount also. If the entered amount is withdrawable then he can withdraw money otherwise he will be asked to repeat the operation.
+
+```
+def withdraw(self):
+        if self.pin == "":
+            self.create_pin()
+        if self.check_pin():
+            amount = int(input("Please enter your withdrawal amount or press 0 to return to menu: "))
+            if amount == 0:
+                pass
+            elif amount < 0:
+                print("Invalid amount")
+            elif self.balance >= amount:
+                self.balance -= amount
+                print("Amount has been withdrawn successfully")
+            else:
+                print("Insufficient balance")
+                self.withdraw()
+        else:
+            print("You have entered wrong pin")
+            self.withdraw()
+```
+[Back to top](#programs)
+
 
 ### Check Balance
+User will be shown balance when he enters the correct pin just like all the above mentioned methods.
+```
+    def check_balance(self):
+        if self.pin == "":
+            self.create_pin()
+        if self.check_pin():
+            print(f"Your current balance is : {self.balance}")
+        else:
+            print("You have entered wrong pin")
+            self.check_balance()
+```
+[Back to top](#programs)
+
