@@ -5,10 +5,10 @@ Object oriented programming concepts.**
 
 <br>
 
-# Concepts
-- Magic method
-- Constructor
-- Self object
+# Concepts 
+- Magic method (Will be added soon)
+- Constructor (Will be added soon)
+- Self object (Will be added soon)
 
 <br>
 
