@@ -27,7 +27,7 @@ We will be building following programs
         - [Deposit Money](#deposit-money)
             - User will be able to deposit money
         - [Withdraw Money](#withdraw-money)
-            - User will be able withdraw money
+            - User will be able to withdraw money
         - [Check Balance](#check-balance)
             - User will be able to check balance
 
@@ -35,8 +35,8 @@ We will be building following programs
     - We will create a custom datatype named **fraction** which will have the following functionalities
         - [Addition]()
             - Add two fractions
-        - [Substraction]()
-             - Substract two fractions
+        - [Subtraction]()
+             - Subtract two fractions
         - [Multiplication]()
              - Multiply two fractions
         - [Division]()
@@ -47,7 +47,7 @@ We will be building following programs
 All the features mentioned above will be implemented using OOP as said before.
 
 # Usage of OOP
-- User will be able to transit between multiple banks at the same time which will have **different** pin codes, balanace  etc.
+- User will be able to transit between multiple banks at the same time which will have **different** pin codes, balance  etc.
 
 # Atm Banking System
 Atm is a very widely used banking system in today's world which has basic features like depositing money, withdrawing money, Checking balance etc. Our Atm will also have features like these.
@@ -169,7 +169,7 @@ In order to deposit money user has to have a pin. If he doesn't have a pin he ha
 
 
 ## Withdraw Money
-Just like deposit method, withdraw method will also be performed after entering the righ pin. In this case user has to enter a valid amount as well. If the entered amount is withdrawable then he can withdraw money otherwise he will be again asked to enter a withdrawable amount.
+Just like deposit method, withdraw method will also be performed after entering the right pin. In this case user has to enter a valid amount as well. If the entered amount is sufficient then he can withdraw money otherwise he will be again asked to enter a sufficient amount.
 
 ```
 def withdraw(self):
@@ -195,7 +195,7 @@ def withdraw(self):
 
 
 ## Check Balance
-User will be shown balance when he enters the correct pin just like all the above mentioned methods.
+User will be shown balance when he enters the correct pin just like all the above-mentioned methods.
 ```
     def check_balance(self):
         if self.pin == "":
