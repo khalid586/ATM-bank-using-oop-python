@@ -14,12 +14,12 @@ We will be building following programs
         - [Deposit Money](#deposit-money)
         - [Withdraw Money](#withdraw-money)
         - [Check Balance](#check-balance)
-- Custom Datatype
+- [Custom Datatype]()
     - Custom datatype which will include the following features
-        - Addition
-        - Substraction
-        - Multiplication
-        - Division
+        - [Addition]()
+        - [Substraction]()
+        - [Multiplication]()
+        - [Division]()
  
 
 
