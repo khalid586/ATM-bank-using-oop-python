@@ -34,9 +34,13 @@ We will be building following programs
 - [Custom Datatype]()
     - We will create a custom datatype named **fraction** which will have the following functionalities
         - [Addition]()
+            - Add two fractions
         - [Substraction]()
+             - Substract two fractions
         - [Multiplication]()
+             - Multiply two fractions
         - [Division]()
+             - Divide two fractions
  
 
 
