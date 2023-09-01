@@ -52,7 +52,7 @@ All the features mentioned above will be implemented using OOP as said before.
 # Atm Banking System
 The features are mentioned below
 
-### Select Bank
+## Select Bank
 User will have to select a bank from the given options and then the menu method will be called by the object
 
 ```
@@ -90,7 +90,7 @@ main()
 ```
 [Back to top](#programs)
 
-### Select from Menu
+## Select from Menu
 User will have to select an operation from the menu
 
 ```
@@ -118,7 +118,7 @@ def menu(self):
 ```
 [Back to top](#programs)
 
-### Create Pin
+## Create Pin
 We will be creating pins for every object and pin is required to perform all other operations.Without a pin no one can perform any other operation. And if pin is created then every time someone is going to perform any operation pin will be checked.
 
 ```
@@ -134,7 +134,7 @@ def create_pin(self):
             print("There is already a pin")
 ```
 [Back to top](#programs)
-### Check Pin
+## Check Pin
 If there is a pin already existing in the program then we will check the pin everytime before performing any operation.
 ```
     def check_pin(self):
@@ -147,7 +147,7 @@ If there is a pin already existing in the program then we will check the pin eve
 [Back to top](#programs)
 
 
-### Deposit Money
+## Deposit Money
 In order to deposit money user has to have a pin. If he doesn't have a pin he has to create one and if he has then we will check the pin he has entered. After entering the right pin his entered amount will be added to balance.
 
 ```
@@ -166,7 +166,7 @@ In order to deposit money user has to have a pin. If he doesn't have a pin he ha
 [Back to top](#programs)
 
 
-### Withdraw Money
+## Withdraw Money
 Just like deposit method, withdraw method will also be performed after entering the righ pin. In this case user has to enter a valid amount as well. If the entered amount is withdrawable then he can withdraw money otherwise he will be again asked to enter a withdrawable amount.
 
 ```
@@ -192,7 +192,7 @@ def withdraw(self):
 [Back to top](#programs)
 
 
-### Check Balance
+## Check Balance
 User will be shown balance when he enters the correct pin just like all the above mentioned methods.
 ```
     def check_balance(self):
