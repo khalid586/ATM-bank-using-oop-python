@@ -50,10 +50,12 @@ All the features mentioned above will be implemented using OOP as said before.
 - User will be able to transit between multiple banks at the same time which will have **different** pin codes, balanace  etc.
 
 # Atm Banking System
-The features are mentioned below
+Atm is a very widely used banking system in today's world which has basic features like depositing money, withdrawing money, Checking balance etc. Our Atm will also have features like these.
+
+- The features are mentioned below
 
 ## Select Bank
-User will have to select a bank from the given options and then the menu method will be called by the object
+User will have to select a bank from the given options and then the menu method will be called by the object.
 
 ```
 def main():
