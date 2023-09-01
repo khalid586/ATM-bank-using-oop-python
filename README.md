@@ -206,3 +206,12 @@ User will be shown balance when he enters the correct pin just like all the abov
 ```
 [Back to top](#programs)
 
+<!-- # Custom Datatype
+
+## Addition
+
+## Sub
+
+## Mul
+
+## Division -->
