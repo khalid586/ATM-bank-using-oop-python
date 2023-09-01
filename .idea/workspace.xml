@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc40dfce-8823-402d-9a61-74f534c91b7a" name="Changes" comment="readme updated">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="bc40dfce-8823-402d-9a61-74f534c91b7a" name="Changes" comment="readme updated[typos fixed]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693157452239</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="readme updated[typos fixed]">
+      <created>1693597279242</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1693597279242</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +211,7 @@
     <MESSAGE value="Incorrect pin submission handled properly. Previously it was giving showing incorrect pin even after providing correct pin if user gives incorrect pin once" />
     <MESSAGE value="Menu fucntion has been moved inside Atm class as before but it is not under constructor , might be done letter" />
     <MESSAGE value="readme updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme updated" />
+    <MESSAGE value="readme updated[typos fixed]" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme updated[typos fixed]" />
   </component>
 </project>

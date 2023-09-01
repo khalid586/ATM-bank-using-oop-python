@@ -57,6 +57,8 @@ Atm is a very widely used banking system in today's world which has basic featur
 ## Select Bank
 User will have to select a bank from the given options and then the menu method will be called by the object.
 
+<details><summary>Code</summary> 
+
 ```
 def main():
     asiaBank = Atm()
@@ -90,10 +92,16 @@ def main():
 
 main()
 ```
+</details>
+<br>
+
+
 [Back to top](#programs)
 
 ## Select from Menu
 User will have to select an operation from the menu
+
+<details><summary>Code</summary> 
 
 ```
 def menu(self):
@@ -118,10 +126,16 @@ def menu(self):
 
         return user_input
 ```
+</details>
+<br>
+
+
 [Back to top](#programs)
 
 ## Create Pin
 We will be creating pins for every object and pin is required to perform all other operations.Without a pin no one can perform any other operation. And if pin is created then every time someone is going to perform any operation pin will be checked.
+
+<details><summary>Code</summary> 
 
 ```
 def __init__(self):
@@ -135,9 +149,16 @@ def create_pin(self):
         else:
             print("There is already a pin")
 ```
+</details>
+<br>
+
+
 [Back to top](#programs)
+
 ## Check Pin
 If there is a pin already existing in the program then we will check the pin everytime before performing any operation.
+<details><summary>Code</summary> 
+
 ```
     def check_pin(self):
         pin = input("Enter your pin please: ")
@@ -146,11 +167,17 @@ If there is a pin already existing in the program then we will check the pin eve
         else:
             return 0
 ```
+</details>
+<br>
+
+
 [Back to top](#programs)
 
 
 ## Deposit Money
 In order to deposit money user has to have a pin. If he doesn't have a pin he has to create one and if he has then we will check the pin he has entered. After entering the right pin his entered amount will be added to balance.
+
+<details><summary>Code</summary> 
 
 ```
     def deposit(self):
@@ -165,11 +192,17 @@ In order to deposit money user has to have a pin. If he doesn't have a pin he ha
             print("You have entered wrong pin")
             self.deposit()
 ```
+</details>
+<br>
+
+
 [Back to top](#programs)
 
 
 ## Withdraw Money
 Just like deposit method, withdraw method will also be performed after entering the right pin. In this case user has to enter a valid amount as well. If the entered amount is sufficient then he can withdraw money otherwise he will be again asked to enter a sufficient amount.
+
+<details><summary>Code</summary> 
 
 ```
 def withdraw(self):
@@ -191,11 +224,19 @@ def withdraw(self):
             print("You have entered wrong pin")
             self.withdraw()
 ```
+</details>
+<br>
+
+
 [Back to top](#programs)
 
 
 ## Check Balance
+
 User will be shown balance when he enters the correct pin just like all the above-mentioned methods.
+
+<details><summary>Code</summary> 
+
 ```
     def check_balance(self):
         if self.pin == "":
@@ -206,6 +247,9 @@ User will be shown balance when he enters the correct pin just like all the abov
             print("You have entered wrong pin")
             self.check_balance()
 ```
+</details>
+<br>
+
 [Back to top](#programs)
 
 <!-- # Custom Datatype
