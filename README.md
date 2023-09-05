@@ -189,7 +189,7 @@ In order to deposit money user has to have a pin. If he doesn't have a pin he ha
             self.balance += int(amount)
             print("Amount has been deposited successfully")
         else:
-            print("You have entered wrong pin")
+            print("You have entered wrong pin,please re-enter")
             self.deposit()
 ```
 </details>
