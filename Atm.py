@@ -51,7 +51,7 @@ class Atm:
             self.balance += int(amount)
             print("Amount has been deposited successfully")
         else:
-            print("You have entered wrong pin")
+            print("You have entered wrong pin, please re-enter your pin")
             self.deposit()
 
     def withdraw(self):
