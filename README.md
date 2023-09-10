@@ -68,7 +68,9 @@ All the features mentioned above will be implemented using OOP as said before.
 - **The options will be:**
 
      0. Exit
-     1. Asia Bank: 
+
+     1. Asia Bank
+
      2. Prime Bank
 
 
