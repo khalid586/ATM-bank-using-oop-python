@@ -58,12 +58,12 @@ All the features mentioned above will be implemented using OOP as said before.
 - User will be able to transit between multiple banks at the same time which will have **different** pin codes, balance  etc.
 
 # <img src = "https://cdn.dribbble.com/users/2493316/screenshots/14030448/media/8b87a18633c28586e4a315bcdaab031b.gif" align = "center" width = "60px" height = "40px"> Atm Banking System
-Atm is a very widely used banking system in today's world which has basic features like depositing money, withdrawing money, Checking balance etc. Our Atm will also have features like these.
+**Atm is a very widely used banking system in today's world which has basic features like depositing money, withdrawing money, Checking balance etc. Our Atm will also have features like these.**
 
 - The features are mentioned below
 
 ## Select Bank
-User will have to select a bank from the given options and then the menu method will be called by the object.
+- User will have to select a bank from the given options and then the menu method will be called by the object.
 
 <details><summary>Code</summary> 
 
@@ -107,7 +107,7 @@ main()
 [Back to top](#atm-banking-system)
 
 ## Select from Menu
-User will have to select an operation from the menu
+- User will have to select an operation from the menu
 
 <details><summary>Code</summary> 
 
@@ -140,7 +140,9 @@ def menu(self):
 [Back to top](#atm-banking-system)
 
 ## Create Pin
-We will be creating pins for every object and pin is required to perform all other operations.Without a pin no one can perform any other operation. And if pin is created then every time someone is going to perform any operation pin will be checked.
+- We will be creating pins for every object and pin is required to perform all other operations.
+- **Without a pin no one can perform any other operation.**
+- If pin is created then every time someone is going to perform any operation pin will be checked.
 
 <details><summary>Code</summary> 
 
@@ -163,7 +165,7 @@ def create_pin(self):
 [Back to top](#atm-banking-system)
 
 ## Check Pin
-If there is a pin already existing in the program then we will check the pin everytime before performing any operation.
+- **If there is a pin already existing in the program then we will check the pin everytime before performing any operation.**
 <details><summary>Code</summary> 
 
 ```
@@ -182,7 +184,9 @@ If there is a pin already existing in the program then we will check the pin eve
 
 
 ## Deposit Money
-In order to deposit money user has to have a pin. If he doesn't have a pin he has to create one and if he has then we will check the pin he has entered. After entering the right pin his entered amount will be added to balance.
+- In order to deposit money user has to have a pin. 
+- If he doesn't have a pin he has to create one and if he has then we will check the pin he has entered.
+- After entering the right pin his entered amount will be added to the balance.
 
 <details><summary>Code</summary> 
 
@@ -207,7 +211,9 @@ In order to deposit money user has to have a pin. If he doesn't have a pin he ha
 
 
 ## Withdraw Money
-Just like deposit method, withdraw method will also be performed after entering the right pin. In this case user has to enter a valid amount as well. If the entered amount is sufficient then he can withdraw money otherwise he will be again asked to enter a sufficient amount.
+- Just like deposit method, withdraw method will also be performed after entering the right pin. 
+- **In this case user has to enter a valid amount as well.** 
+- **If the entered amount is sufficient then he can withdraw money otherwise he will be again asked to enter a sufficient amount.**
 
 <details><summary>Code</summary> 
 
@@ -239,8 +245,8 @@ def withdraw(self):
 
 
 ## Check Balance
-
-User will be shown balance when he enters the correct pin just like all the above-mentioned methods.
+- User must create a pin and enter the correct pin in order to check balance.
+- **User will be shown balance when he enters the correct pin just like all the above-mentioned methods.**
 
 <details><summary>Code</summary> 
 
