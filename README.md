@@ -22,7 +22,7 @@ Object oriented programming concepts.**
 
 # <img src = "https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/6b06a38e84212c55eac1ef33dbd3d318.gif" align = "center" width = "60px" height = "40px"> Programs
 We will be building following programs
-- [Atm Banking System](#atm-banking-system)
+- ### Atm Banking System
     - Our Atm Banking System will have the following features
         - [Select Bank](#select-bank)
             - User will be able to select bank
@@ -39,7 +39,7 @@ We will be building following programs
         - [Check Balance](#check-balance)
             - User will be able to check balance
 
-- [Custom Datatype]() (It will be added soon)
+- ### Custom Datatype (It will be added soon)
     - We will create a custom datatype named **fraction** which will have the following functionalities
         - [Addition]()
             - Add two fractions
@@ -104,7 +104,7 @@ main()
 <br>
 
 
-[Back to top](#programs)
+[Back to top](#atm-banking-system)
 
 ## Select from Menu
 User will have to select an operation from the menu
@@ -137,8 +137,7 @@ def menu(self):
 </details>
 <br>
 
-
-[Back to top](#programs)
+[Back to top](#atm-banking-system)
 
 ## Create Pin
 We will be creating pins for every object and pin is required to perform all other operations.Without a pin no one can perform any other operation. And if pin is created then every time someone is going to perform any operation pin will be checked.
@@ -161,7 +160,7 @@ def create_pin(self):
 <br>
 
 
-[Back to top](#programs)
+[Back to top](#atm-banking-system)
 
 ## Check Pin
 If there is a pin already existing in the program then we will check the pin everytime before performing any operation.
@@ -179,7 +178,7 @@ If there is a pin already existing in the program then we will check the pin eve
 <br>
 
 
-[Back to top](#programs)
+[Back to top](#atm-banking-system)
 
 
 ## Deposit Money
@@ -204,7 +203,7 @@ In order to deposit money user has to have a pin. If he doesn't have a pin he ha
 <br>
 
 
-[Back to top](#programs)
+[Back to top](#atm-banking-system)
 
 
 ## Withdraw Money
@@ -236,7 +235,7 @@ def withdraw(self):
 <br>
 
 
-[Back to top](#programs)
+[Back to top](#atm-banking-system)
 
 
 ## Check Balance
@@ -258,7 +257,7 @@ User will be shown balance when he enters the correct pin just like all the abov
 </details>
 <br>
 
-[Back to top](#programs)
+[Back to top](#atm-banking-system)
 
 <!-- # Custom Datatype
 
