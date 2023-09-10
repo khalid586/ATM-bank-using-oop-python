@@ -65,6 +65,13 @@ All the features mentioned above will be implemented using OOP as said before.
 ## Select Bank
 - User will have to select a bank from the given options and then the menu method will be called by the object.
 
+- **The options will be:**
+
+     0. Exit
+     1. Asia Bank: 
+     2. Prime Bank
+
+
 <details><summary>Code</summary> 
 
 ```
@@ -107,7 +114,15 @@ main()
 [Back to top](#atm-banking-system)
 
 ## Select from Menu
-- User will have to select an operation from the menu
+- **User will have to select an operation from the menu.**
+
+- **The options will be similiar to the following:**
+    -  Enter 0 to exit
+    -  Enter 1 to create pin
+    -  Enter 2 to deposit
+    -  Enter 3 to withdraw
+    -  Enter 4 to check balance
+
 
 <details><summary>Code</summary> 
 
@@ -140,9 +155,9 @@ def menu(self):
 [Back to top](#atm-banking-system)
 
 ## Create Pin
-- We will be creating pins for every object and pin is required to perform all other operations.
+- **We will be creating pins for every object and pin is required to perform all other operations.**
 - **Without a pin no one can perform any other operation.**
-- If pin is created then every time someone is going to perform any operation pin will be checked.
+- **If pin is created then every time someone is going to perform any operation pin will be checked.**
 
 <details><summary>Code</summary> 
 
@@ -184,9 +199,9 @@ def create_pin(self):
 
 
 ## Deposit Money
-- In order to deposit money user has to have a pin. 
-- If he doesn't have a pin he has to create one and if he has then we will check the pin he has entered.
-- After entering the right pin his entered amount will be added to the balance.
+- **In order to deposit money user has to have a pin.**
+- **If he doesn't have a pin he has to create one and if he has then we will check the pin he has entered.**
+- **After entering the right pin his entered amount will be added to the balance.**
 
 <details><summary>Code</summary> 
 
@@ -211,7 +226,7 @@ def create_pin(self):
 
 
 ## Withdraw Money
-- Just like deposit method, withdraw method will also be performed after entering the right pin. 
+- **Just like deposit method, withdraw method will also be performed after entering the right pin.**
 - **In this case user has to enter a valid amount as well.** 
 - **If the entered amount is sufficient then he can withdraw money otherwise he will be again asked to enter a sufficient amount.**
 
@@ -245,7 +260,7 @@ def withdraw(self):
 
 
 ## Check Balance
-- User must create a pin and enter the correct pin in order to check balance.
+- **User must create a pin and enter the correct pin in order to check balance.**
 - **User will be shown balance when he enters the correct pin just like all the above-mentioned methods.**
 
 <details><summary>Code</summary> 
