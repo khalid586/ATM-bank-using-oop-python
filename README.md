@@ -1,11 +1,13 @@
-# Introduction
+<img width="800" height="400" src="assets/banner gif.gif">
+
+# <img src = "https://cdn.dribbble.com/users/1138721/screenshots/10809828/media/478d32b2e65c8c3194b7f2154e179231.gif" align = "center" width = "60px" height = "45px"> Introduction
 
 **In this repository we will build a Basic programs using Object oriented programming in Python which will mainly focus on implementing 
 Object oriented programming concepts.**
 
 <br>
 
-# Concepts 
+# <img src = "https://cdn.dribbble.com/users/1299339/screenshots/3079111/presentation_d.gif" align = "center" width = "60px" height = "40px"> Concepts 
 - [Magic method](#magic-method)
 - Constructor (Will be added soon)
 - Self object (Will be added soon)
@@ -18,7 +20,7 @@ Object oriented programming concepts.**
 
 <br>
 
-# Programs
+# <img src = "https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/6b06a38e84212c55eac1ef33dbd3d318.gif" align = "center" width = "60px" height = "40px"> Programs
 We will be building following programs
 - [Atm Banking System](#atm-banking-system)
     - Our Atm Banking System will have the following features
@@ -52,10 +54,10 @@ We will be building following programs
 
 All the features mentioned above will be implemented using OOP as said before.
 
-# Usage of OOP
+### Usage of OOP
 - User will be able to transit between multiple banks at the same time which will have **different** pin codes, balance  etc.
 
-# Atm Banking System
+# <img src = "https://cdn.dribbble.com/users/2493316/screenshots/14030448/media/8b87a18633c28586e4a315bcdaab031b.gif" align = "center" width = "60px" height = "40px"> Atm Banking System
 Atm is a very widely used banking system in today's world which has basic features like depositing money, withdrawing money, Checking balance etc. Our Atm will also have features like these.
 
 - The features are mentioned below
