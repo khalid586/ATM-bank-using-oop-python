@@ -2,6 +2,8 @@
 
 # <img src = "https://cdn.dribbble.com/users/1138721/screenshots/10809828/media/478d32b2e65c8c3194b7f2154e179231.gif" align = "center" width = "60px" height = "45px"> Introduction
 
+**Object Oriented Programming in one of the most important concepts in terms of building scalable softwares.As python is also a object oriented programming language we should get fimiliar to the OOP terminogies by building programs.**
+
 **In this repository we will build a Basic programs using Object oriented programming in Python which will mainly focus on implementing 
 Object oriented programming concepts.**
 
