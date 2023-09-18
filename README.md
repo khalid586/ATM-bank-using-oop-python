@@ -6,7 +6,7 @@
 
 <br>
 
-> **In this repository we will build a Basic programs using Object oriented programming in Python which will mainly focus on implementing 
+> **In this repository we will build basic programs using Object oriented programming in Python which will mainly focus on implementing 
 Object oriented programming concepts.**
 
 <br>
