@@ -1,5 +1,9 @@
 ![](assets/banner%20gif.gif)
 
+![](https://img.shields.io/badge/Python-%20OOP-%23E60023.svg)
+![GitHub stars](https://img.shields.io/github/stars/khalid586/Object-Oriented-Programming-Python) 
+ 
+
 ## <img src = "https://cdn.dribbble.com/users/1138721/screenshots/10809828/media/478d32b2e65c8c3194b7f2154e179231.gif" align = "center" width = "50px" height = "30px"> Introduction
 
 **Object Oriented Programming in one of the most important concepts in terms of building scalable softwares.As python is also a object oriented programming language we should get fimiliar to the OOP terminogies by building programs.**
