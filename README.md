@@ -4,7 +4,9 @@
 
 **Object Oriented Programming in one of the most important concepts in terms of building scalable softwares.As python is also a object oriented programming language we should get fimiliar to the OOP terminogies by building programs.**
 
-**In this repository we will build a Basic programs using Object oriented programming in Python which will mainly focus on implementing 
+<br>
+
+> **In this repository we will build a Basic programs using Object oriented programming in Python which will mainly focus on implementing 
 Object oriented programming concepts.**
 
 <br>
