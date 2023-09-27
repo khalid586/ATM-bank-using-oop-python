@@ -4,7 +4,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/khalid586/Object-Oriented-Programming-Python) 
  
 
-## <img src = "https://cdn.dribbble.com/users/1138721/screenshots/10809828/media/478d32b2e65c8c3194b7f2154e179231.gif" align = "center" width = "50px" height = "30px"> [Introduction](#introduction)
+## <img src = "https://cdn.dribbble.com/users/1138721/screenshots/10809828/media/478d32b2e65c8c3194b7f2154e179231.gif" align = "center" width = "50px" height = "30px"> [ Introduction](#introduction)
 
 **Object Oriented Programming in one of the most important concepts in terms of building scalable softwares.As python is also a object oriented programming language we should get fimiliar to the OOP terminogies by building programs.**
 
@@ -15,7 +15,7 @@ Object oriented programming concepts.**
 
 <br>
 
-## <img src = "https://cdn.dribbble.com/users/1299339/screenshots/3079111/presentation_d.gif" align = "center" width = "50px" height = "30px"> [Concepts](#concepts) 
+## <img src = "https://cdn.dribbble.com/users/1299339/screenshots/3079111/presentation_d.gif" align = "center" width = "50px" height = "30px"> [ Concepts](#concepts) 
 
 - [Magic method](#magic-method)
 - Constructor (Will be added soon)
@@ -29,7 +29,7 @@ Object oriented programming concepts.**
 
 <br>
 
-## <img src = "https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/6b06a38e84212c55eac1ef33dbd3d318.gif" align = "center" width = "50px" height = "30px"> [Programs](#programs)
+## <img src = "https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/6b06a38e84212c55eac1ef33dbd3d318.gif" align = "center" width = "50px" height = "30px"> [ Programs](#programs)
 We will be building following programs
 - ### Atm Banking System
     - Our Atm Banking System will have the following features
@@ -66,7 +66,7 @@ All the features mentioned above will be implemented using OOP as said before.
 ### Usage of OOP
 - User will be able to transit between multiple banks at the same time which will have **different** pin codes, balance  etc.
 
-## <img src = "https://cdn.dribbble.com/users/2493316/screenshots/14030448/media/8b87a18633c28586e4a315bcdaab031b.gif" align = "center" width = "50px" height = "30px"> [Atm Banking System](#atm-banking-system)
+## <img src = "https://cdn.dribbble.com/users/2493316/screenshots/14030448/media/8b87a18633c28586e4a315bcdaab031b.gif" align = "center" width = "50px" height = "30px"> [ Atm Banking System](#atm-banking-system)
 **Atm is a very widely used banking system in today's world which has basic features like depositing money, withdrawing money, Checking balance etc. Our Atm will also have features like these.**
 
 - The features are mentioned below
