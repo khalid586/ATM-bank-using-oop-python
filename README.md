@@ -6,7 +6,7 @@
 
 ## <img src = "https://cdn.dribbble.com/users/1138721/screenshots/10809828/media/478d32b2e65c8c3194b7f2154e179231.gif" align = "center" width = "50px" height = "30px"> [ Introduction](#introduction)
 
-**Object Oriented Programming in one of the most important concepts in terms of building scalable softwares.As python is also a object oriented programming language we should get fimiliar to the OOP terminogies by building programs.**
+**Object Oriented Programming in one of the most important concepts in terms of building scalable softwares.As python is also a object oriented programming language we should get fimiliar to the OOP terminologies by building programs.**
 
 <br>
 
@@ -17,9 +17,9 @@ Object oriented programming concepts.**
 
 ## <img src = "https://cdn.dribbble.com/users/1299339/screenshots/3079111/presentation_d.gif" align = "center" width = "50px" height = "30px"> [ Concepts](#concepts) 
 
-- [Magic method](#magic-method)
-- Constructor (Will be added soon)
-- Self object (Will be added soon)
+- [**Magic method**](#magic-method)
+- **Constructor** (Will be added soon)
+- **Self object** (Will be added soon)
 
 
 ### Magic Method
