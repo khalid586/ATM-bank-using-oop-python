@@ -33,19 +33,19 @@ Object oriented programming concepts.**
 We will be building following programs
 - ### Atm Banking System
     - Our Atm Banking System will have the following features
-        - [Select Bank](#select-bank)
+        - [**Select Bank**](#select-bank)
             - User will be able to select bank
-        - [Select option from Menu](#select-from-menu)
+        - [**Select option from Menu**](#select-from-menu)
             - User will be able to select operations from the menu
-        - [Create Pin](#create-pin)
+        - [**Create Pin**](#create-pin)
             - User has to create pin in order to operate
-        - [Check Pin](#check-pin)
+        - [**Check Pin**](#check-pin)
             - Entered pin will be checked after creating pin 
-        - [Deposit Money](#deposit-money)
+        - [**Deposit Money**](#deposit-money)
             - User will be able to deposit money
-        - [Withdraw Money](#withdraw-money)
+        - [**Withdraw Money**](#withdraw-money)
             - User will be able to withdraw money
-        - [Check Balance](#check-balance)
+        - [**Check Balance**](#check-balance)
             - User will be able to check balance
 
 - ### Custom Datatype (It will be added soon)
