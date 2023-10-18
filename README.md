@@ -25,7 +25,7 @@ Object oriented programming concepts.**
 ### Magic Method
 - Dunder or Magic methods in Python are the methods having two prefixes and suffix underscores in the method name.
 - Dunder here means “Double Under (Underscores)”. These are commonly used for operator overloading.
-- You will get to know more [here](https://www.google.com/amp/s/www.geeksforgeeks.org/dunder-magic-methods-python/amp/)
+- You will get to know more by clicking [**here**](https://www.google.com/amp/s/www.geeksforgeeks.org/dunder-magic-methods-python/amp/).
 
 <br>
 
